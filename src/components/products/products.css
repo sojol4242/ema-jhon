@@ -11,6 +11,7 @@
 .product .product-title a{    
     text-decoration: none;
     font-weight: 600;
+    color: rgb(185, 115, 24);
      
 }
  .product .product-basic-info img,.product .product-basic-info h4,.product .product-basic-info h5,.product .product-basic-info p{
@@ -67,10 +68,10 @@
       margin-bottom: .5rem;
   }
  
-  .cart-btn{
+  .cart-btn,.review-btn{
     
       padding: 8px 30px;
-      border-radius: 10px;
+      border-radius: 3px;
       border: none;
       background: linear-gradient(60deg,rgb(230, 178, 110),rgb(223, 131, 12));
       color: rgb(102, 9, 9);
@@ -84,4 +85,6 @@
       font-size: .8rem;
       font-weight: 500;
   }
-    
+    .review-btn{
+        margin-top: 2rem;
+    }

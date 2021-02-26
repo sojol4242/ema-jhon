@@ -18,7 +18,8 @@
     grid-column-gap: 1.5rem;
     grid-row-gap: 2rem;
    
-    
-    
 }
- 
+.cart-container{
+    padding-right: 50px;
+    line-height: 1.8rem;
+}

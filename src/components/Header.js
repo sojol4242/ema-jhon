@@ -1,3 +1,5 @@
+import { faCartPlus } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import logo from '../images/logo.png'
 import './header.css'
@@ -12,6 +14,7 @@ const Header = () => {
                     <input type="text" />
                 <button type="submit">Search</button>
                 </div>
+               
                 {/* <span>
                     <i class="fa fa-shopping-cart">Cart</i>
                 </span> */}
@@ -27,7 +30,10 @@ const Header = () => {
                         <li className="link">Review</li>
                     </a>
                 </ul>
-              </div>
+                </div>
+                <div className="nav-cart-btn">
+                     <FontAwesomeIcon icon={faCartPlus}/>
+                </div>
             </nav>
         </div>
     );
