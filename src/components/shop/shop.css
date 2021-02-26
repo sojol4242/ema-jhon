@@ -1,0 +1,24 @@
+*>li{
+    list-style: none;
+}
+.shop-container{
+   display: grid;
+   grid-template-columns:9fr 3fr;
+   grid-row: auto;
+   grid-gap: 10px;
+   padding: 2rem 0;
+}
+.product-container {
+    margin: 0 3rem;
+    border-right:2px solid rgb(121, 121, 121) ;   
+    background-color: aliceblue;
+    padding: 10px 5px; 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 2rem;
+   
+    
+    
+}
+ 
