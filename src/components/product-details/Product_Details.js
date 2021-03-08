@@ -12,9 +12,10 @@ const Product_Details = () => {
     return (
         <>
             <h4> Details Information</h4>
-            <Products handleButton={false} product={products}
-                 
-                 />  
+         <div className="product-container"> 
+        
+            <Products handleButton={false} product={products}/>  
+        </div>
         </>
     );
 };
